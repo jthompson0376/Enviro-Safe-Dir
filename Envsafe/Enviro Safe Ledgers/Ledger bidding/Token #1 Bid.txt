@@ -1,0 +1,5 @@
+Bidding for token #1 complete
+
+I bid  20$ on token #1  
+
+Bidding completed and requesting enviro ledger

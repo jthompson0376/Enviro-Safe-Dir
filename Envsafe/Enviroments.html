@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Enviroment | Enviro Safe</title>
+    <link rel="stylesheet" href="site.css" type="text/css" />
+    <link rel="icon" href="images/tree iconn.png"  >
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Enviroments.html">Enviroments</a></li>
+          <li><a href="contactledgerrequest.html">Ledger Request</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <aside>
+        <img src="images/Envhand.png" alt="Bethany's Pie Shop" />
+        <img src="images/money tree.jpg" >
+        <div>
+        <p> Here you can see , Enviro Safe's current and confirmed tokens.Enviro safe continues to tokenize greenery  <i> <p style="color: green;">Are you feeling  green today ? </p></i> </p>
+        </div>
+      </aside>
+
+      <article>
+        <h1>Environments Secured by Enviro Safe</h1>
+
+        <section class="columns-desktop">
+          <div class="pie">
+            <img src="../EnviroToken1.jpg" alt="Apple Pie" />
+            <div class="columns">
+              <div class="title">Token#1 </div>
+              <div class="price">$20.00 / 30 days</div>
+            </div>
+            <p class="desc">Enviro Token #1 , processed on 05/10/2022</p>
+            <p> GPS coordinates: 38.19/-85.76 | 38.19/-85.76|38.19/-85.76|38.19/-85.76  </p>
+         
+          </div>
+
+          <div class="pie">
+            <img src="images/Envirotokenexample.jpg" alt="Enviro Token Example" />
+            <div class="columns">
+              <div class="title">Enviro token Example ( just a demo token and env )  </div>
+              <div class="price">$25.00</div>
+            </div>
+            <p class="desc">An Enviroment in the Amazon , waiting for enviro safe.</p>
+           <p>   
+            <div>GPS: unknown   ,   
+             GPF:  unknown , </div>
+
+             <div>Timeframe: end 05/10/2022 ,
+             Status: Claimed / in progress </div>
+
+             * Token 2 is not active , and has been registered by a Enviro Safe Representative. 
+
+          
+           </p>
+          </div>
+        </section>
+      </article>
+    
+      <p> </p>
+    </main>
+
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Enviroments.html">Enviroments</a></li>
+          <li><a href="contactledgerrequest.html">Ledger Request</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+  <script>
+    window.addEventListener("DOMContentLoaded", function(e) {
+      const orderButtons = document.querySelectorAll("button[data-order]");
+
+      orderButtons.forEach(function(button) {
+        
+        button.addEventListener("click", function(e) {
+          const button = e.currentTarget;
+          const container = button.parentNode;
+
+          const order = {
+            id: (id = button.getAttribute("data-order")),
+            title: container.querySelector(".title").innerText,
+            price: container.querySelector(".price").innerText,
+            desc: container.querySelector(".desc").innerText
+          };
+
+          localStorage.setItem("order", JSON.stringify(order));
+
+          const url = window.location.href.replace("pies.html", "order.html");
+          window.location.href = url;
+        });
+      });
+    });
+  </script>
+</html>
