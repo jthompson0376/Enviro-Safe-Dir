@@ -2,13 +2,20 @@
 This Is a repository that is only currently publicly available for the contest.     The Enviro Safe name and functions are copyrighted and trademarked. 
 
 Hello and welcome to "Enviro Safe" . 
+
+<i> How to hack the environment , by Jacob R. Thompson </i>
+
 My name is (Jaykey) Jacob Thompson. Here you will find the basic layout and functions of html and css to incorporate a simple enviro safe draft to be incorporated with hedera and hashgraph.  
 
 Essentially enviro safe takes the enviromnent into its own hands by the adaptation of several already available technologies, That will be referenced later.  
 Please note the essential function and purpose of enviro safe and that is to move towards decarbonization in an appropriate way. For Enviro Safe, This means keeping the environment safe and of couse / therefore green. 
 There is a new and essential measurement known as GPF or Greenery per foot.  
 
-it works like this --Enviro Safe makes Enviro Ledgers.
+it works like this --Enviro Safe makes Enviro Ledgers. Enviro Ledgers are essentially tokens over time of green contribution to the environment.  Within a given GPS Coordinates , this can be measured and improved on as a whole if not a specific area. 
+However, Enviro Safe works on Enviro Ledgers to keep the Enviro Safe and Green , one spot at a time. 
+Essentially rewarding gardeners in a sense, but directing it into the GPF or Greenery per foot. 
+
+Please , Let me show you ,  
 
 Enviro Ledgers are simply claims for a certain area , 
  - - Be a already green or just wasted ground.
@@ -33,4 +40,8 @@ If a Enviro Safe Rep is to be requested , a minimun token requirement must be es
 +++ Contact envirosafeofficiall@protonmail.com +++ for requersts , comments , or questions through enviro safe , 
 Alternatively on my email jnowtxtnownow@gmail.com. 
 Thank you , and happy enviro saving ! 
+      
+      
+      
+      I will also attatch a long and detailed letter explaining more of enviro safe , feel free to read as you wish !  
       
