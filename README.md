@@ -1,4 +1,4 @@
-# Enviro-Safe-Dir
+# Enviro-Safe-Dir  | Download and Open the Index.html to begin
 This Is a repository that is only currently publicly available for the contest.     The Enviro Safe name and functions are copyrighted and trademarked. 
 
 Hello and welcome to "Enviro Safe" . 
